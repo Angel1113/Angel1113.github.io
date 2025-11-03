@@ -1,0 +1,83 @@
+.encabezado {
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+.titulo {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.subtitulo {
+    color: #685374;
+    font-size: 0.9rem;
+}
+
+.contenedor {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 10px;
+}
+
+.formulario {
+    background-color: #362e49;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.lista {
+    background-color: #1f2937;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.campo {
+    width: 100%;
+    padding: 8px;
+    border-radius: 6px;
+    background-color: #181818;
+    color: white;
+}
+
+.botones {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.btn {
+    padding: 8px 15px;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+}
+
+.azul { background-color: #25eb77; }
+.azul:hover { background-color: #1d4ed8; }
+
+.amarillo { background-color: #d90606; }
+.amarillo:hover { background-color: #b45309; }
+
+.rojo { background-color: #c1dc26; }
+.rojo:hover { background-color: #b91c1c; }
+
+.error {
+    color: #f87171;
+    font-size: 0.9rem;
+}
+
+.pie {
+    text-align: center;
+    color: #9ca3af;
+    padding: 15px;
+    border-top: 1px solid #374151;
+    margin-top: 30px;
+}
